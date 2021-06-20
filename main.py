@@ -29,8 +29,7 @@ def search(update: Update, context: CallbackContext):
 
     if len(args) == 0:
         update.message \
-            .reply_text('Hech bo‘lmasa, nimadir kiriting. Misol uchun '
-                        '/search Amir Temur')
+                .reply_text()
     else:
         search_text = ' '.join(args)
         logging.info('sending request to Wikipedia API')
