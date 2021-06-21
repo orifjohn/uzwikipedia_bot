@@ -1,5 +1,7 @@
 # uzwikipedia_bot
 wikipedia for bot
+
+
 Installation:
 1. copy settings/local_settings.example.py to settings/local_settings.py
 2. set your own token into settings/local_settings.py
